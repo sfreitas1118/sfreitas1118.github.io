@@ -229,6 +229,62 @@ a:hover { color: var(--accent); }
   font-weight: 600;
 }
 
+/* Experience */
+.exp-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.exp-item {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 20px 26px;
+}
+
+.exp-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.exp-role {
+  font-weight: 700;
+  color: var(--ink);
+  margin: 0 0 0.15em;
+}
+
+.exp-org {
+  margin: 0;
+  font-size: 0.92rem;
+}
+
+.exp-dates {
+  flex-shrink: 0;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--ink-soft);
+  white-space: nowrap;
+}
+
+.exp-bullets {
+  margin: 0;
+  padding-left: 1.2em;
+}
+.exp-bullets li {
+  font-size: 0.92rem;
+  color: var(--ink-soft);
+  margin-bottom: 0.35em;
+}
+.exp-bullets li:last-child { margin-bottom: 0; }
+
 /* Projects */
 .project-grid {
   display: grid;
