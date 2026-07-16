@@ -260,6 +260,78 @@ a:hover { color: var(--accent); }
 
 .project-card p { font-size: 0.95rem; margin-bottom: 0; }
 
+/* Publications */
+.pub-card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 24px 28px;
+}
+
+.pub-card h3 {
+  margin-bottom: 0.3em;
+}
+
+.pub-card h3 a {
+  text-decoration: none;
+  color: var(--ink);
+}
+.pub-card h3 a:hover { color: var(--accent-dark); }
+
+.pub-meta {
+  font-size: 0.88rem;
+  color: var(--ink-soft);
+  margin-bottom: 0.9em;
+}
+
+.pub-link {
+  font-weight: 700;
+  font-size: 0.92rem;
+  text-decoration: none;
+}
+
+/* Certifications */
+.cert-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.cert-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 16px 22px;
+}
+
+.cert-title {
+  font-weight: 700;
+  color: var(--ink);
+  margin: 0 0 0.15em;
+}
+
+.cert-issuer {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.cert-date {
+  flex-shrink: 0;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--accent-dark);
+  background: var(--accent-soft);
+  padding: 4px 12px;
+  border-radius: 999px;
+}
+
 /* Contact */
 .contact-lede { max-width: 60ch; }
 
